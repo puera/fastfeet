@@ -80,8 +80,8 @@ You'll also need to setup and run a Postgres and a Redis database and insert the
 From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/puera/fastfeet-final-challenge
+# Clone this repository and submodules
+$ git clone --recurse-submodules https://github.com/puera/fastfeet-final-challenge
 
 # Go into the repository
 $ cd fastfeet-final-challenge
@@ -90,7 +90,9 @@ $ cd fastfeet-final-challenge
 $ cd backend
 $ yarn
 
-It is necessary to create the database in postgres before to run the yarn sequelize db:migrate and change your IP on .env BASE_URL to acess avatar on mobile and frontend
+It is necessary to create the database in postgres before to run the yarn
+sequelize db:migrate and change your IP on .env BASE_URL to acess
+avatar on mobile and frontend
 
 # Run migrations and the seed to your database
 # The command yarn sequelize db:seed:all is just necessary if you wanna create the admin user automatically.
