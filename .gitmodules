@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/puera/fastfeet-backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/puera/fastfeet-frontend
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/puera/fastfeet-mobile
