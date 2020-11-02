@@ -21,8 +21,6 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 
 Back-end:
 - [NodeJS](https://nodejs.org)
-- [Axios](https://github.com/axios/axios)
-- [Immer](https://github.com/immerjs/immer)
 - [date-fns](https://date-fns.org/)
 - [bcrypt.js](https://github.com/dcodeIO/bcrypt.js)
 - [cors](https://github.com/expressjs/cors)
